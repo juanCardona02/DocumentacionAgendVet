@@ -1,8 +1,13 @@
 # DRIVERS ARQUITECTÓNICOS
 
 - **Atributos de calidad**
-  - Mapa de empatía
-        1. *Priorización de atributos*
-        ![Mapa Empatía](https://github.com/juanCardona02/DocumentacionAgendVet/blob/main/Images/Mapa-Empatia/Priorizaci%C3%B3nAtributos.png)
-       
- 
+  - Priorización de atributos
+        *Mapa de Empatía*
+        ![Gráfico Radar](https://github.com/juanCardona02/DocumentacionAgendVet/blob/main/Images/Mapa-Empatia/Priorizaci%C3%B3nAtributos.png)
+  
+  - Características y escenarios de calidad
+   -*Confiabilidad*
+        1.Características
+          (https://github.com/juanCardona02/DocumentacionAgendVet/blob/55f990eabb3287a1fdbcb4afb7dcb198b32292a2/Images/Atributos-Calidad/Confiabilidad/CaracterisiticasConfiabilidad.png)
+
+  
