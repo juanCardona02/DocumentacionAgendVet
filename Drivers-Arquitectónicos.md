@@ -1,4 +1,4 @@
-# DRIVERS ARQUITECTóNICOS
+# DRIVERS ARQUITECTÓNICOS
 
 - **Atributos de calidad**
   - Mapa de empatía
