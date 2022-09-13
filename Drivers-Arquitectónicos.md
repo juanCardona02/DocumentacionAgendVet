@@ -3,7 +3,7 @@
 - **Atributos de calidad**
   - Priorización de atributos
          *Gráfico Radar*
-        ![Gráfico Radar](https://github.com/juanCardona02/DocumentacionAgendVet/blob/main/Images/Mapa-Empatia/Priorizaci%C3%B3nAtributos.png)
+        ![Gráfico Radar](img src="Images/Mapa-Empatia/PriorizacionAtributos.png" alt="drawing" width="200")
   
 - Características y escenarios de calidad
   - Confiabilidad
