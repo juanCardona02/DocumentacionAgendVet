@@ -1,9 +1,10 @@
 # DRIVERS ARQUITECTÓNICOS
 
-## Atributos de calidad
+**Atributos de calidad**
   - Priorización de atributos
          *Gráfico Radar*
-        <img src="https://github.com/juanCardona02/DocumentacionAgendVet/blob/main/Images/Mapa-Empatia/Priorizaci%C3%B3nAtributos.png" alt="Gráfico Radar" width="500">
+         <br>
+         <img src="https://github.com/juanCardona02/DocumentacionAgendVet/blob/main/Images/Mapa-Empatia/Priorizaci%C3%B3nAtributos.png" alt="Gráfico Radar" width="500">
   
 - Características y escenarios de calidad
   - Confiabilidad
