@@ -14,5 +14,5 @@
   - Funcionalidades critícas
   - Restricciones Técnicas
   - Restricciones de Negocio
-- **Arquitectura De Referencia** [[Arquitectura-Referencia]]
+- **Arquitectura De Referencia** [Arquetipo Base](https://github.com/juanCardona02/DocumentacionAgendVet/blob/79e9a12864140ebb046ffae8ee09f63025ff8cb1/Arquetipo-Base.md)
 - **Plataforma Tecnológica** [Plataforma Tecnológica](https://github.com/juanCardona02/DocumentacionAgendVet/blob/32492e17462d9ba8d1765192d22ae9bcd5a8b788/Plataforma-Tecnol%C3%B3gica.md)
