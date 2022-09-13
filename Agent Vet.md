@@ -1,6 +1,6 @@
 # Agent Vet
 
-## contenido
+## Contenido
 
 - **Visión**: [[vision]]
 - **Modelado de Dominio** [[Drivers-arquitectonicos]]
