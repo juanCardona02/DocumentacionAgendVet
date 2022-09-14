@@ -14,7 +14,7 @@
   - Funcionalidades critícas
   - Restricciones Técnicas
   - Restricciones de Negocio
-- [Arquitecura Referencia](Arqutecura-Referencia.md)
+- [Arquitecura Referencia](Arquitectura-Referencia.md)
 - [Arquetipo Base](Arquetipo-Base.md)
 	<details><summary>Plataforma Tecnológica</summary>
         
