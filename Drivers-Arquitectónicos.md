@@ -89,6 +89,5 @@
 				2.6. Escenario de calidad 6
 					![esc](Images/Atributos-Calidad/Seguridad/EsBaSeguridad6.png)
 
-**Funcionalidades Críticas**
--AGENDAMIENTO: el agendamiento va ligado a las distintas sedes, y a su vez va de la mano con los distintos veterinarios los cuales manejan su horario de acuerdo con la agenda previamente definida.
-Se garantiza un buen manejo y agendamiento de citas en cuanto a las distintas peticiones en el tiempo dado y con al menos tres horas de antelación, para que no ocurran errores ni cruces entre las distintas citas y horarios.
+**Funcionalidades Críticas** 
+	- AGENDAMIENTO: el agendamiento va ligado a las distintas sedes, y a su vez va de la mano con los distintos veterinarios los cuales manejan su horario de acuerdo con la agenda previamente definida. Se garantiza un buen manejo y agendamiento de citas en cuanto a las distintas peticiones en el tiempo dado y con al menos tres horas de antelación, para que no ocurran errores ni cruces entre las distintas citas y horarios.
