@@ -138,12 +138,12 @@
 
 **Restricciones de Negocio**
 
-	- El detalle de historia clínica y toda la información que contiene(fórmula, paciente, veterinario que atendió...) se cierra solo cuando se da como finalizada la cita.
-	- Una vez cerrada una cita no se puede modificar información de la historia clínica referente a dicha cita.
-	- Una cita debe agendarse en un espacio disponible con antelación de al menos tres  horas.
-	- Los horarios disponibles deben ser previa y claramente definidos por la veterinaria / sede.
-	- Los tipos de mascotas al ser atendidos deben ser previamente definidos.
-	- Un veterinario puede cancelar únicamente una cita agendada a sí mismo.
-	- No pueden existir citas simultáneas para el mismo usuario.
-	- Un veterinario no puede tener citas agendadas para diferentes usuarios / sedes en simultáneo.
-	- Un consultorio no puede tener más de una cita en simultáneo.
+- El detalle de historia clínica y toda la información que contiene(fórmula, paciente, veterinario que atendió...) se cierra solo cuando se da como finalizada la cita.
+- Una vez cerrada una cita no se puede modificar información de la historia clínica referente a dicha cita.
+- Una cita debe agendarse en un espacio disponible con antelación de al menos tres  horas.
+- Los horarios disponibles deben ser previa y claramente definidos por la veterinaria / sede.
+- Los tipos de mascotas al ser atendidos deben ser previamente definidos.
+- Un veterinario puede cancelar únicamente una cita agendada a sí mismo.
+- No pueden existir citas simultáneas para el mismo usuario.
+- Un veterinario no puede tener citas agendadas para diferentes usuarios / sedes en simultáneo.
+- Un consultorio no puede tener más de una cita en simultáneo.
