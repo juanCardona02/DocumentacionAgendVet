@@ -5,7 +5,7 @@
 <p><b>Atributos de calidad</b></p>
   - Priorización de atributos
 		<br>
-        *Gráfico Radar*
+        Gráfico Radar
         <br>
 		<img src="Images/Mapa-Empatia/PriorizaciónAtributos.png" alt="Gráfico Radar" width="500">
   
