@@ -90,4 +90,9 @@
 					![esc](Images/Atributos-Calidad/Seguridad/EsBaSeguridad6.png)
 
 **Funcionalidades Críticas** 
-  - AGENDAMIENTO:  el agendamiento va ligado a las distintas sedes, y a su vez va de la mano con los distintos veterinarios los cuales manejan su horario de acuerdo con la agenda previamente definida. Se garantiza un buen manejo y agendamiento de citas en cuanto a las distintas peticiones en el tiempo dado y con al menos tres horas de antelación, para que no ocurran errores ni cruces entre las distintas citas y horarios.
+  - **AGENDAMIENTO**:  el agendamiento va ligado a las distintas sedes, y a su vez va de la mano con los distintos veterinarios los cuales manejan su horario de acuerdo con la agenda previamente definida. Se garantiza un buen manejo y agendamiento de citas en cuanto a las distintas peticiones en el tiempo dado y con al menos tres horas de antelación, para que no ocurran errores ni cruces entre las distintas citas y horarios.
+  - **ENVÍO NOTIFICACIONES**: El sistema notificará tanto al cliente como al veterinario sobre el agendamiento válido de una cita en un tiempo que se encuentre disponible.
+	
+		se notificará tanto al cliente como al veterinario de llegar a pasar cualquiera de estas acciones: Cancelación de cita, Reprogramación de Cita.
+	
+		se le notificará al cliente un Recordatorio previo a la Cita, para asegurar su asistencia.
