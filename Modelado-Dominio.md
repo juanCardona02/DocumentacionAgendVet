@@ -6,7 +6,7 @@
 <br>
 -*Ciudad*:Entidad que pertenece a un departamento determinado, donde están ubicadas cada uno de las veterinarias.
 <br>
-- <b>*Veterinaria*: Entidad que brinda apoyo en los diferentes campos de la salud para el bienestar de una mascota.(La información más específica la tiene la sede)
+- <b>*Veterinaria*</b>: Entidad que brinda apoyo en los diferentes campos de la salud para el bienestar de una mascota.(La información más específica la tiene la sede)
 <br>
 -*Sede*: Entidad que representa una sucursal,la cual pertenece a una veterinaria.
 <br>
