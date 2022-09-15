@@ -91,7 +91,7 @@
 
 **Funcionalidades Críticas** 
   - **AGENDAMIENTO**:La funcionalidad de agendamiento es crítica en el sentido que es parte esencial del core del negocio de la veterinaria.  Su indisponibilidad o lentitud al momento de solicitar una cita puede repercutir en los ingresos de la empresa.  Es por ello, desde una óptica de negocio consideramos ponerle foco técnico con el fin de brindar una mejor experiencia al usuario y que ello se vea reflejado en el crecimiento mismo de la veterinaria.
-  - **ENVÍO NOTIFICACIONES**: Representa una funcionalidad crítica, porque hace parte fundamental en sentido de confiabilidad, tanto un cliente como un veterinario deben estar al tanto de los estados de las citas, en casos de cancelación / reagendamiento ambos actores deben ser notificados, de lo contrario se genera insatisfacción en torno al producto, lo que impacta diréctamente degeneración en la imágen de la empresa.
+  - **ENVÍO NOTIFICACIONES**:Representa una funcionalidad crítica, porque hace parte fundamental en sentido de confiabilidad, tanto un cliente como un veterinario deben estar al tanto de los estados de las citas, en casos de cancelación / reagendamiento ambos actores deben ser notificados, de lo contrario se genera insatisfacción en torno al producto, lo que impacta diréctamente degeneración en la imágen de la empresa.
 
 **Restricciones Técnicas**
   - Funcionales:
