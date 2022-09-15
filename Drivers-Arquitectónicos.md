@@ -1,6 +1,6 @@
 # DRIVERS ARQUITECTÓNICOS
 
-<p><b>**Atributos de calidad**</b></p>
+<p><b>Atributos de calidad</b></p>
   - Priorización de atributos
 		<br>
         *Gráfico Radar*
