@@ -1,5 +1,7 @@
 # DRIVERS ARQUITECTÓNICOS
 
+[Atributos de Calidad](https://docs.google.com/spreadsheets/d/1S_FjFUqPp5lyossS7RIULytX8pctjinT/edit?usp=sharing&ouid=100818533910801106935&rtpof=true&sd=true)
+
 <p><b>Atributos de calidad</b></p>
   - Priorización de atributos
 		<br>
