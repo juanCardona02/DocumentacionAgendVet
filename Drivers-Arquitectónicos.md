@@ -99,60 +99,61 @@
 
 **Restricciones Técnicas**
   - Funcionales:
-		Funciones como administrar sedes y/o veterinarios sólo estarán disponibles para el rol de administrador
-		Sólo el rol de administrador puede bloquear / eliminar otros usuarios.
+  
+	Funciones como administrar sedes y/o veterinarios sólo estarán disponibles para el rol de administrador
+	Sólo el rol de administrador puede bloquear / eliminar otros usuarios.
 		
-		- El administrador puede:
+	- El administrador puede:
+	
+		Registrar veterinarias
 		
-			Registrar veterinarias
-			
-			Registrar sedes
-			
-			Crear / modificar / eliminar / consultar tipos de sedes
-			
-			Crear / modificar / eliminar / consultar consultorios
-			
-			Bloquear / eliminar usuarios en el sistema
-			
-			Crear / modificar / eliminar / consultar equipamiento por sede
-			
-		- Un veterinario puede:
+		Registrar sedes
 		
-			Crear, modificar o eliminar medicamentos
-			
-			Consultar medicamentos
-			
-			Consultar dueños
-			
-			Crear fórmulas
-			
-			Crear / seleccionar agendas
-			
-			Actualizar datos de sí mismo (veterinario)
-			
-			Modificar / eliminar citas
-			
-			Consultar / modificar / eliminar razas
-			
-			Eliminar veterinario (sí mismo)
-			
-		- Un dueño puede:
+		Crear / modificar / eliminar / consultar tipos de sedes
 		
-			Crear / modificar / eliminar una cuenta de usuario
-			
-			Consultar agendas
-			
-			Crear / modificar / eliminar citas
-			
-			Consultar citas
-			
-			Consultar historias clínicas
-			
-			Consultar fórmulas
-			
-			Crear / modificar / eliminar / consultar mascotas
-			
-			Crear / consultar razas
+		Crear / modificar / eliminar / consultar consultorios
+		
+		Bloquear / eliminar usuarios en el sistema
+		
+		Crear / modificar / eliminar / consultar equipamiento por sede
+		
+	- Un veterinario puede:
+	
+		Crear, modificar o eliminar medicamentos
+		
+		Consultar medicamentos
+		
+		Consultar dueños
+		
+		Crear fórmulas
+		
+		Crear / seleccionar agendas
+		
+		Actualizar datos de sí mismo (veterinario)
+		
+		Modificar / eliminar citas
+		
+		Consultar / modificar / eliminar razas
+		
+		Eliminar veterinario (sí mismo)
+		
+	- Un dueño puede:
+	
+		Crear / modificar / eliminar una cuenta de usuario
+		
+		Consultar agendas
+		
+		Crear / modificar / eliminar citas
+		
+		Consultar citas
+		
+		Consultar historias clínicas
+		
+		Consultar fórmulas
+		
+		Crear / modificar / eliminar / consultar mascotas
+		
+		Crear / consultar razas
 
 
 **Restricciones de Negocio**
