@@ -1,16 +1,22 @@
 # MODELADO DE DOMINIO
 
--**País**: Entidad que representa a cada uno de los países, donde están ubicados los departamentos que contienen las ciudades en donde están cada una de las veterinarias.
+-**País**
 <br>
--**Departamento**:Entidad que pertenece a un país determinado, y que representa a cada uno de los departamentos donde están ubicadas las ciudades que tienen sedes pertenecientes a cada una de las veterinarias.
+Entidad que representa a cada uno de los países, donde están ubicados los departamentos que contienen las ciudades en donde están cada una de las veterinarias.
 <br>
--**Ciudad**:Entidad que pertenece a un departamento determinado, donde están ubicadas cada uno de las veterinarias.
+-**Departamento**
+<br>
+Entidad que pertenece a un país determinado, y que representa a cada uno de los departamentos donde están ubicadas las ciudades que tienen sedes pertenecientes a cada una de las veterinarias.
+<br>
+-**Ciudad**
+<br>
+Entidad que pertenece a un departamento determinado, donde están ubicadas cada uno de las veterinarias.
 <br>
 -**Veterinaria**: Entidad que brinda apoyo en los diferentes campos de la salud para el bienestar de una mascota.(La información más específica la tiene la sede)
 <br>
 -**Sede**: Entidad que representa una sucursal,la cual pertenece a una veterinaria.
 <br>
--**Tipo sede**:Entidad que representa una sede,la cual pertenece a la sede de una institución.
+-**Tipo sede**:Entidad que representa una sede,la cual pertenece a la sede de una veterinaria.
 <br>
 -**Consultorio**:Entidad,generalmente de carácter privado, donde un veterinario atiende a los pacientes que asisten a él para realizar una consulta.
 <br>
@@ -24,7 +30,7 @@
 <br>
 -**Raza**: Entidad que pertenece a un animal y que representa cada una de las razas que tiene una mascota.
 <br>
--**Mascota**:Entidad que representa el paciente que asiste a la cita, el cual pertenece a una raza.
+-**Mascota**:Entidad que representa el paciente que asiste a la cita,la cual pertenece a una raza.
 <br>
 -**Agenda**: Entidad que contiene los horarios y fechas de disponibilidad para todos los veterinarios.
 <br>
