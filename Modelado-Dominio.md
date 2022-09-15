@@ -28,19 +28,19 @@
 <br>
 -**Agenda**: Entidad que contiene los horarios y fechas de disponibilidad para todos los veterinarios.
 <br>
--**Agenda por veterinario**:Entidad que relaciona cada agenda con cada veterinario.
+-**Agenda por Veterinario**:Entidad que relaciona cada agenda con cada veterinario.
 <br>
--**Estado de agendamiento**: Entidad que indica los estados que puede tener una cita, es decir, si la cita está programada, se canceló, etc.
+-**Estado de Agendamiento**: Entidad que indica los estados que puede tener una cita, es decir, si la cita está programada, se canceló, etc.
 <br>
 -**Cita**:Entidad que representa una cita dentro de la veterinaria
 <br>
--**Detalle de historia**:Entidad que representa la información general de diagnóstico y mediciones.
+-**Detalle Historia Clínica**:Entidad que representa la información general de diagnóstico y mediciones.
 <br>
--**Historia clínica**:Entidad que representa la información de la mascota y última revisión, y es el cúmulo de todos los detalles.
+-**Historia Clínica**:Entidad que representa la información de la mascota y última revisión, y es el cúmulo de todos los detalles.
 <br>
 -**Fórmula**:Entidad que representa la información más general de una fórmula médica.
 <br>
--**Detalle fórmula**: Entidad que representa los medicamentos, cantidad e indicaciones de la fórmula.
+-**Detalle Fórmula**: Entidad que representa los medicamentos, cantidad e indicaciones de la fórmula.
 <br>
 -**Notificación**: Entidad que representa una novedad de la cita.
 <br>

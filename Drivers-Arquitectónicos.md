@@ -40,4 +40,8 @@
 		![esc](Images/Atributos-Calidad/Seguridad/CaracterisitcasSeguridad.png)
 		<br>
 		2.Escenarios
+		<br>
+		![esc](Images/Atributos-Calidad/Seguridad/EscenariosBasicosSeguridad.png)
+		<br>
+		
   
