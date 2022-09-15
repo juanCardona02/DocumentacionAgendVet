@@ -90,7 +90,7 @@
 					![esc](Images/Atributos-Calidad/Seguridad/EsBaSeguridad6.png)
 
 **Funcionalidades Críticas** 
-  - **AGENDAMIENTO**:  El agendamiento va ligado a las distintas sedes, y a su vez va de la mano con los distintos veterinarios los cuales manejan su horario de acuerdo con la agenda previamente definida. Se garantiza un buen manejo y agendamiento de citas en cuanto a las distintas peticiones en el tiempo dado y con al menos tres horas de antelación, para que no ocurran errores ni cruces entre las distintas citas y horarios.
+  - **AGENDAMIENTO**:La funcionalidad de agendamiento es crítica en el sentido que es parte esencial del core del negocio de la veterinaria.  Su indisponibilidad o lentitud al momento de solicitar una cita puede repercutir en los ingresos de la empresa.  Es por ello, desde una óptica de negocio consideramos ponerle foco técnico con el fin de brindar una mejor experiencia al usuario y que ello se vea reflejado en el crecimiento mismo de la veterinaria.
   - **ENVÍO NOTIFICACIONES**: El sistema notificará tanto al cliente como al veterinario sobre el agendamiento válido de una cita en un tiempo que se encuentre disponible.
 	
 	Se notificará tanto al cliente como al veterinario de llegar a pasar cualquiera de estas acciones: Cancelación de cita, Reprogramación de Cita.
@@ -137,3 +137,13 @@
 
 
 **Restricciones de Negocio**
+
+	- El detalle de historia clínica y toda la información que contiene(fórmula, paciente, veterinario que atendió...) se cierra solo cuando se da como finalizada la cita.
+	- Una vez cerrada una cita no se puede modificar información de la historia clínica referente a dicha cita.
+	- Una cita debe agendarse en un espacio disponible con antelación de al menos tres  horas.
+	- Los horarios disponibles deben ser previa y claramente definidos por la veterinaria / sede.
+	- Los tipos de mascotas al ser atendidos deben ser previamente definidos.
+	- Un veterinario puede cancelar únicamente una cita agendada a sí mismo.
+	- No pueden existir citas simultáneas para el mismo usuario.
+	- Un veterinario no puede tener citas agendadas para diferentes usuarios / sedes en simultáneo.
+	- Un consultorio no puede tener más de una cita en simultáneo.
