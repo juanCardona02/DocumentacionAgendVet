@@ -1,6 +1,6 @@
 # DRIVERS ARQUITECTÓNICOS
 
-**Atributos de calidad**
+<p><b>**Atributos de calidad**</b></p>
   - Priorización de atributos
 		<br>
         *Gráfico Radar*
@@ -13,7 +13,7 @@
 		1.Características
 		<br>
 		![esc](Images/Atributos-Calidad/Confiabilidad/CaracterisiticasConfiabilidad.png)<br>
-		2.Escenarios
+		2.Escenarios<br>
 			1. Escenarios de Calidad 1
 			![esc](Images/Atributos-Calidad/Confiabilidad/EsBaConfiabilidad1.png)
 			2. Escenarios de calidad 2
