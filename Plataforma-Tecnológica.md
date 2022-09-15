@@ -4,7 +4,7 @@
 
 - Se utilizara la librería de código abierto Angular como Framework, ya que se usa para manejar la capa de visualización de la aplicación; este brindara un entorno de trabajo estructurado con funcionalidades que permitirán desarrollar el proyecto de inicio a fin como una interfaz web, es rápido y escalable para cambiar los datos sin recargar la página, además incorpora y hace uso de un paquete componente que contiene los elementos de la solución.
 
-Dentro del componente se encuentra el HTML el CSS y el TypeScript.
+- Dentro del componente se encuentra el HTML el CSS y el TypeScript.
 
 
  **BACK END**
