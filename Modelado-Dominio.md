@@ -1,12 +1,12 @@
 # MODELADO DE DOMINIO
 
--*País*: Entidad que representa a cada uno de los países, donde están ubicados los departamentos que contienen las ciudades en donde están cada una de las veterinarias.
+-<b>País</b>: Entidad que representa a cada uno de los países, donde están ubicados los departamentos que contienen las ciudades en donde están cada una de las veterinarias.
 <br>
--*Departamento*:Entidad que pertenece a un país determinado, y que representa a cada uno de los departamentos donde están ubicadas las ciudades que tienen sedes pertenecientes a cada una de las veterinarias.
+- <b>Departamento <b>:Entidad que pertenece a un país determinado, y que representa a cada uno de los departamentos donde están ubicadas las ciudades que tienen sedes pertenecientes a cada una de las veterinarias.
 <br>
 -*Ciudad*:Entidad que pertenece a un departamento determinado, donde están ubicadas cada uno de las veterinarias.
 <br>
-- <b>*Veterinaria*</b>: Entidad que brinda apoyo en los diferentes campos de la salud para el bienestar de una mascota.(La información más específica la tiene la sede)
+-<b>*Veterinaria*</b>: Entidad que brinda apoyo en los diferentes campos de la salud para el bienestar de una mascota.(La información más específica la tiene la sede)
 <br>
 -*Sede*: Entidad que representa una sucursal,la cual pertenece a una veterinaria.
 <br>
