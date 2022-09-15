@@ -1,6 +1,6 @@
 # MODELADO DE DOMINIO
 
--**País**
+**País**
 <br>
 Entidad que representa a cada uno de los países, donde están ubicados los departamentos que contienen las ciudades en donde están cada una de las veterinarias.
 <br>
