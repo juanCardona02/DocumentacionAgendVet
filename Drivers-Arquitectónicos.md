@@ -75,8 +75,7 @@
 		<br>
 		![esc](Images/Atributos-Calidad/Seguridad/CaracterisitcasSeguridad.png)
 		<br>
-		2.Escenarios
-		
+		2.Escenarios<br>
             2.1. Escenario de Calidad 1
 				![esc](Images/Atributos-Calidad/Seguridad/EsBaSeguridad1.png)
 			2.2. Escenario de calidad 2
