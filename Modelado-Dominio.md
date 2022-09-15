@@ -12,45 +12,85 @@ Entidad que pertenece a un país determinado, y que representa a cada uno de los
 <br>
 Entidad que pertenece a un departamento determinado, donde están ubicadas cada uno de las veterinarias.
 <br>
--**Veterinaria**: Entidad que brinda apoyo en los diferentes campos de la salud para el bienestar de una mascota.(La información más específica la tiene la sede)
+-**Veterinaria**
 <br>
--**Sede**: Entidad que representa una sucursal,la cual pertenece a una veterinaria.
+Entidad que brinda apoyo en los diferentes campos de la salud para el bienestar de una mascota.(La información más específica la tiene la sede)
 <br>
--**Tipo sede**:Entidad que representa una sede,la cual pertenece a la sede de una veterinaria.
+-**Sede**
 <br>
--**Consultorio**:Entidad,generalmente de carácter privado, donde un veterinario atiende a los pacientes que asisten a él para realizar una consulta.
+Entidad que representa una sucursal,la cual pertenece a una veterinaria.
 <br>
--**Tipo Identificación**:Entidad que representa el tipo de documento que identifica a la persona.
+-**Tipo sede**
 <br>
--**Dueño**:Entidad que representa al dueño de la mascota.
+Entidad que representa una sede,la cual pertenece a la sede de una veterinaria.
 <br>
--**Veterinario**:Entidad que representa al veterinario que atiende a un paciente en una determinada veterinaria.
+-**Consultorio**
 <br>
--**Animal**: Entidad que representa a cada uno de los animales que hacen parte de una raza determinada.
+Entidad,generalmente de carácter privado, donde un veterinario atiende a los pacientes que asisten a él para realizar una consulta.
 <br>
--**Raza**: Entidad que pertenece a un animal y que representa cada una de las razas que tiene una mascota.
+-**Tipo Identificación**
 <br>
--**Mascota**:Entidad que representa el paciente que asiste a la cita,la cual pertenece a una raza.
+Entidad que representa el tipo de documento que identifica a la persona.
 <br>
--**Agenda**: Entidad que contiene los horarios y fechas de disponibilidad para todos los veterinarios.
+-**Dueño**
 <br>
--**Agenda por Veterinario**:Entidad que relaciona cada agenda con cada veterinario.
+Entidad que representa al dueño de la mascota.
 <br>
--**Estado de Agendamiento**: Entidad que indica los estados que puede tener una cita, es decir, si la cita está programada, se canceló, etc.
+-**Veterinario**
 <br>
--**Cita**:Entidad que representa una cita dentro de la veterinaria
+Entidad que representa al veterinario que atiende a un paciente en una determinada veterinaria.
 <br>
--**Detalle Historia Clínica**:Entidad que representa la información general de diagnóstico y mediciones.
+-**Animal**
 <br>
--**Historia Clínica**:Entidad que representa la información de la mascota y última revisión, y es el cúmulo de todos los detalles.
+Entidad que representa a cada uno de los animales que hacen parte de una raza determinada.
 <br>
--**Fórmula**:Entidad que representa la información más general de una fórmula médica.
+-**Raza**
 <br>
--**Detalle Fórmula**: Entidad que representa los medicamentos, cantidad e indicaciones de la fórmula.
+Entidad que pertenece a un animal y que representa cada una de las razas que tiene una mascota.
 <br>
--**Notificación**: Entidad que representa una novedad de la cita.
+-**Mascota**
 <br>
--**Tipo Notificación**: Entidad que representa una notificación,la cual pertenece a la notificación de una cita.
+Entidad que representa el paciente que asiste a la cita,la cual pertenece a una raza.
+<br>
+-**Agenda**
+<br>
+Entidad que contiene los horarios y fechas de disponibilidad para todos los veterinarios.
+<br>
+-**Agenda por Veterinario**
+<br>
+Entidad que relaciona cada agenda con cada veterinario.
+<br>
+-**Estado de Agendamiento**
+<br>
+Entidad que indica los estados que puede tener una cita, es decir, si la cita está programada, se canceló, etc.
+<br>
+-**Cita**
+<br>
+Entidad que representa una cita dentro de la veterinaria
+<br>
+-**Detalle Historia Clínica**
+<br>
+Entidad que representa la información general de diagnóstico y mediciones.
+<br>
+-**Historia Clínica**
+<br>
+Entidad que representa la información de la mascota y última revisión, y es el cúmulo de todos los detalles.
+<br>
+-**Fórmula**
+<br>
+Entidad que representa la información más general de una fórmula médica.
+<br>
+-**Detalle Fórmula**
+<br>
+Entidad que representa los medicamentos, cantidad e indicaciones de la fórmula.
+<br>
+-**Notificación**
+<br>
+Entidad que representa una novedad de la cita.
+<br>
+-**Tipo Notificación**
+<br>
+Entidad que representa una notificación,la cual pertenece a la notificación de una cita.
 
 
 [Modelos](https://app.diagrams.net/#G1biPMACpC6PVnlxnaMcAy8FE57Oh2dilD)
