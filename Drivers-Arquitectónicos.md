@@ -107,48 +107,33 @@
 
 		- Registrar veterinarias
 		- Registrar sedes
-		- Crear / modificar / eliminar / consultar tipos de sedes
-		- Crear / modificar / eliminar / consultar consultorios
+		- Registrar / modificar / eliminar / consultar tipos de sedes
+		- Registrar / modificar / eliminar / consultar consultorios
 		- Bloquear / eliminar usuarios en el sistema
-		- Crear / modificar / eliminar / consultar equipamiento por sede
+		- Registrar / modificar / eliminar / consultar equipamiento por sede
 		
 	- Un veterinario puede:
 	
-		Crear, modificar o eliminar medicamentos
-		
-		Consultar medicamentos
-		
-		Consultar dueños
-		
-		Crear fórmulas
-		
-		Crear / seleccionar agendas
-		
-		Actualizar datos de sí mismo (veterinario)
-		
-		Modificar / eliminar citas
-		
-		Consultar / modificar / eliminar razas
-		
-		Eliminar veterinario (sí mismo)
+		- Registrar, modificar o eliminar medicamentos
+		- Consultar medicamentos	
+		- Consultar dueños	
+		- Recetar fórmulas
+		- Crear / seleccionar agendas
+		- Actualizar datos de sí mismo (veterinario)
+		- Modificar / eliminar citas
+		- Consultar / modificar / eliminar razas
+		- Eliminar veterinario (sí mismo)
 		
 	- Un dueño puede:
 	
-		Crear / modificar / eliminar una cuenta de usuario
-		
-		Consultar agendas
-		
-		Crear / modificar / eliminar citas
-		
-		Consultar citas
-		
-		Consultar historias clínicas
-		
-		Consultar fórmulas
-		
-		Crear / modificar / eliminar / consultar mascotas
-		
-		Crear / consultar razas
+		- Registrar / modificar / eliminar una cuenta de usuario
+		- Consultar agendas
+		- Registrar / modificar / eliminar citas
+		- Consultar citas
+		- Consultar historias clínicas
+		- Consultar fórmulas	
+		- Registrar / modificar / eliminar / consultar mascotas
+		- Registrar / consultar razas
 
 
 **Restricciones de Negocio**
