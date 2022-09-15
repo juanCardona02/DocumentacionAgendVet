@@ -104,17 +104,12 @@
 	Sólo el rol de administrador puede bloquear / eliminar otros usuarios.
 		
 	- El administrador puede:
-	
+
 		Registrar veterinarias
-		
 		Registrar sedes
-		
 		Crear / modificar / eliminar / consultar tipos de sedes
-		
 		Crear / modificar / eliminar / consultar consultorios
-		
 		Bloquear / eliminar usuarios en el sistema
-		
 		Crear / modificar / eliminar / consultar equipamiento por sede
 		
 	- Un veterinario puede:
