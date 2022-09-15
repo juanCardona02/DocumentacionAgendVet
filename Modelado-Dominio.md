@@ -98,7 +98,11 @@ Entidad que representa una notificación,la cual pertenece a la notificación de
 
 
 [Modelos](https://app.diagrams.net/#G1biPMACpC6PVnlxnaMcAy8FE57Oh2dilD)
-
+<br>
+<br>
+[Simulación de datos](https://docs.google.com/spreadsheets/d/1voCIOK7ZRH8KMb8mZcd0OrBhj2e0mXab/edit?usp=sharing&ouid=100818533910801106935&rtpof=true&sd=true)
+<br>
+<br>
 **Modelo de dominio** 
 	<br>
 	<img src="Images\Modelo-Dominio/ModeloDominio.png" alt="Modelo Dominio" width="500">
