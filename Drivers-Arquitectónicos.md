@@ -91,54 +91,14 @@
 
 **Funcionalidades Críticas** 
   - **AGENDAMIENTO**:La funcionalidad de agendamiento es crítica en el sentido que es parte esencial del core del negocio de la veterinaria.  Su indisponibilidad o lentitud al momento de solicitar una cita puede repercutir en los ingresos de la empresa.  Es por ello, desde una óptica de negocio consideramos ponerle foco técnico con el fin de brindar una mejor experiencia al usuario y que ello se vea reflejado en el crecimiento mismo de la veterinaria.
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   - **ENVÍO NOTIFICACIONES**:Representa una funcionalidad crítica, porque hace parte fundamental en sentido de confiabilidad, tanto un cliente como un veterinario deben estar al tanto de los estados de las citas, en casos de cancelación / reagendamiento ambos actores deben ser notificados, de lo contrario se genera insatisfacción en torno al producto, lo que impacta diréctamente degeneración en la imágen de la empresa.
 
 **Restricciones Técnicas**
-  - Funcionales:
-  
-	Funciones como administrar sedes y/o veterinarios sólo estarán disponibles para el rol de administrador
-	Sólo el rol de administrador puede bloquear / eliminar otros usuarios.
-		
-	- El administrador puede:
-
-		- Registrar veterinarias
-		- Registrar sedes
-		- Registrar / modificar / eliminar / consultar tipos de sedes
-		- Registrar / modificar / eliminar / consultar consultorios
-		- Bloquear / eliminar usuarios en el sistema
-		- Registrar / modificar / eliminar / consultar equipamiento por sede
-		
-	- Un veterinario puede:
-	
-		- Registrar, modificar o eliminar medicamentos
-		- Consultar medicamentos	
-		- Consultar dueños	
-		- Recetar fórmulas
-		- Crear / seleccionar agendas
-		- Actualizar datos de sí mismo (veterinario)
-		- Modificar / eliminar citas
-		- Consultar / modificar / eliminar razas
-		- Eliminar veterinario (sí mismo)
-		
-	- Un dueño puede:
-	
-		- Registrar / modificar / eliminar una cuenta de usuario
-		- Consultar agendas
-		- Registrar / modificar / eliminar citas
-		- Consultar citas
-		- Consultar historias clínicas
-		- Consultar fórmulas	
-		- Registrar / modificar / eliminar / consultar mascotas
-		- Registrar / consultar razas
-
-
+  - 
 **Restricciones de Negocio**
 
-- El detalle de historia clínica y toda la información que contiene(fórmula, paciente, veterinario que atendió...) se cierra solo cuando se da como finalizada la cita.
-- Una vez cerrada una cita no se puede modificar información de la historia clínica referente a dicha cita.
-- Una cita debe agendarse en un espacio disponible con antelación de al menos tres  horas.
-- Los horarios disponibles deben ser previa y claramente definidos por la veterinaria / sede.
-- Los tipos de mascotas al ser atendidos deben ser previamente definidos.
-- No pueden existir citas simultáneas para el mismo usuario.
-- Un veterinario no puede tener citas agendadas para diferentes usuarios / sedes en simultáneo.
-- Un consultorio no puede tener más de una cita en simultáneo.
+-
