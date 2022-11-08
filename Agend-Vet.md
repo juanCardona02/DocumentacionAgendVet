@@ -3,7 +3,7 @@
 ## Contenido
 
 - [Visión](Visión.md)
-- [Vista Funcional](DocumentacionAgendVet/Vista Funcional)
+- [Vista Funcional](Vista Funcional)
   - Modelado de dominio
   - [Event Storming](https://miro.com/welcomeonboard/ZEd3eGF0eE5MMGVFUERTWmJQcHBMYlhjeGtORURWR0dtM2xmZTdXQXRmVUIyeWFCbGNkSThKSlh3OVZSdGVHd3wzNDU4NzY0NTIxMzE3NDc4MTA4?share_link_id=636179094326)
 - [Drivers Arquitectónicos](Drivers-Arquitectónicos.md)
