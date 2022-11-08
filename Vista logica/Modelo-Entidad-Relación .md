@@ -2,4 +2,4 @@
 
 **Modelo Entidad Relación**
 <br>
-<img src="Vista logica/Images/Mer.pdf" alt="MER" width="500">
+<img src="Images/Mer/MER.png" alt="MER" width="500">
