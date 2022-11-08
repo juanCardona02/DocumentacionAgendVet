@@ -105,8 +105,8 @@ Entidad que representa un tipo de notificación, el cual varía según el estado
 
 **Modelo de dominio**
 <br>
-<img src="Images\Modelo-Dominio/ModeloDominio.png" alt="Modelo Dominio" width="500">
+<img src="../Images\Modelo-Dominio/ModeloDominio.png" alt="Modelo Dominio" width="500">
 
 **Modelo de dominio enriquecido**
 <br>
-<img src="Images\Modelo-Dominio/ModeloDominioEnriquecido.png" alt="Modelo Dominio Enriquecido" width="500">
+<img src="../Images\Modelo-Dominio/ModeloDominioEnriquecido.png" alt="Modelo Dominio Enriquecido" width="500">
