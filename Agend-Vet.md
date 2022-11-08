@@ -16,7 +16,7 @@
 - [Plataforma Tecnológica](Plataforma-Tecnológica.md)
 - *Diseño Detallado*
   - <details><summary>Vista Funcional</summary>
-      1. Modelado De Dominio
+       [Modelado De Dominio](Vista Funcional/Modelado-Dominio.md)
       </details>
   - <details><summary>Vista Logica</summary>
       1. Modelado De Clases<Br>
