@@ -43,7 +43,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |  
 |AgendaPorVeterinario\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -66,7 +66,7 @@ Foreign Keys (referred from)
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |1|Codigo|P||Y|Integer|LT|
 |2|Nombre|||Y|VARCHAR (20) |LT|
 Indexes
