@@ -275,7 +275,7 @@ Columns
 |5|Nombre|||Y|VARCHAR (20) |LT|
 |6|Apellido|||Y|VARCHAR (20) |LT|
 |7|NumeroDocumento|||Y|VARCHAR|LT|
-|8|Direccion ||| VARCHAR (30) |LT|
+|8|Direccion |||Y|VARCHAR (30) |LT|
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
