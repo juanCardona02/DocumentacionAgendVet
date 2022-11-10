@@ -9,6 +9,8 @@ En dicho diagrama, existen seis compomentes lógicos, de cuales:
  - El servicio depende del dominio, de la infraestructura y de la entidad.
  - La infraestructura depende del servicio.
 
+Donde todas las solicitudes generadas a la aplicación van a entrar por el adaptador, el cual se encarga de informarle al servicio la solcitud y esta va a infraestructura para darle respuesta a dicha solicitud.
+
 **Diagrama de Compomentes**
 <br>
 <img src="/Images/Diagrama-Componentes/DiagramaComponentes.png" alt="Diagrama de Compomentes" width="500">
