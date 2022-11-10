@@ -11,4 +11,4 @@ En dicho diagrama, existen seis compomentes lógicos, de cuales:
 
 **Diagrama de Compomentes**
 <br>
-<img src="../Images\Diagrama-Componentes\DiagramaComponentes.png" alt="Diagrama de Compomentes" width="500">
+<img src="../Images/Diagrama-Componentes/DiagramaComponentes.png" alt="Diagrama de Compomentes" width="500">
