@@ -1,46 +1,26 @@
 ﻿
-All Tables Details
+**Diccionario de Datos **
 
-|Design Name|mer|
-| :- | :- |
-|Version Date|09.11.2022 11:09:09|
-|Version Comment||
-|Model Name|Relational\_1|
+|Table Name|**Agenda**|
 
-
-
-
-
-|Table Name|Agenda|
-| :- | :- |
-|Functional Name||
-|Abbreviation||
-|Classification Type Name||
-|Object Type Name||
-|MV Prebuilt||
-|MV Query||
-
-
-|Number Of Columns|3|
-| :- | :- |
-|Number Of Rows Min.|0|
-|Number Of Rows Max.|9999999|
-|Expected Number Of Rows|0|
-|Expected Growth|0|
-|Growth Interval|Year|
-Columns
-
-|**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|**Domain Name**|**Formula<br>(Default Value)**|**Security**|**Abbreviation**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|1|Codigo|P||Y|Integer|LT|||||
-|2|Fecha-hora inicio|||Y|Datetime|LT|||||
-|3|Fecha-hora fin|||Y|Datetime|LT|||||
+|**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|1|Codigo|P||Y|Integer|LT|
+|2|Fecha-hora inicio|||Y|Datetime|LT|
+|3|Fecha-hora fin|||Y|Datetime|LT||
 Indexes
 
-|**Index Name**|**State**|**Functional**|**Spatial**|**Expression**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Agenda\_PK|PK||||Codigo|ASC|
+|**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
+| :-: | :-: | :-: | :-: |
+|Agenda\_PK|PK|Codigo|ASC|
 Foreign Keys (referred from)
+
+|**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|**Delete Rule**|
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|AgendaPorVeterinario\_Agenda\_FK|AgendaPorVeterinario|Y|Y||Agenda|Codigo||
+
+
+
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|**Delete Rule**|
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
