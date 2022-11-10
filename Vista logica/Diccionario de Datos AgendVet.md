@@ -306,6 +306,7 @@ Columns
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |1|Codigo|P||Y|Integer|LT|
 |2|DescripcionVARCHAR (10) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
@@ -331,10 +332,11 @@ Columns
 |2|DetalleHistoriaClinica||F|Y|Integer|LT|
 |3|DuracionTratamiento|||Y|VARCHAR (50) |LT|
 |4|ObservacionesVARCHAR (100) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | 
 |Formula\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -364,7 +366,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | 
 |HistoriaClinica\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -377,7 +379,7 @@ Foreign Keys (referring to)
 
 
 
-**Table Name: Mascota
+**Table Name: Mascota**
 
 Columns
 
@@ -389,10 +391,11 @@ Columns
 |4|Nombre|||Y|VARCHAR (20) |LT|
 |5|FechaNacimiento|||Y|Datetime|LT|
 |6|SexoVARCHAR (10) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | 
 |Mascota\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -420,10 +423,11 @@ Columns
 |1|Codigo|P||Y|Integer|LT|
 |2|Nombre|||Y|VARCHAR (100) |LT|
 |3|Concentracion|||Y|VARCHAR (50) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Medicamento\_PK|PKCodigo|ASC|
 Foreign Keys (referred from)
 
@@ -446,10 +450,11 @@ Columns
 |3|TipoNotificacion||F|Y|Integer|LT|
 |4|Titulo|||Y|VARCHAR (30) |LT|
 |5|MensajeVARCHAR (80) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Notificacion\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -471,10 +476,11 @@ Columns
 |1|Codigo|P||Y|Integer|LT|
 |2|AgendaPorVeterinario||F|Y|Integer|LT|
 |3|Motivo|||Y|VARCHAR (80) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |NovedadAgenda\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -498,7 +504,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Pais\_PK|PKCodigo|ASC|
 Foreign Keys (referred from)
 
@@ -519,10 +525,11 @@ Columns
 |1|Codigo|P||Y|Integer|LT|
 |2|Animal||F|Y|Integer|LT|
 |3|Nombre|||Y|VARCHAR (20) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Raza\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -539,23 +546,8 @@ Foreign Keys (referred from)
 
 
 
-|Table Name|Sede|
-| :- | :- |
-|Functional Name||
-|Abbreviation||
-|Classification Type Name||
-|Object Type Name||
-|MV Prebuilt||
-|MV Query||
+**Table Name: Sede**
 
-
-|Number Of Columns|6|
-| :- | :- |
-|Number Of Rows Min.|0|
-|Number Of Rows Max.|9999999|
-|Expected Number Of Rows|0|
-|Expected Growth|0|
-|Growth Interval|Year|
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
@@ -566,46 +558,32 @@ Columns
 |4|Consultorio||F|Y|Integer|LT|
 |5|Direccion|||Y|VARCHAR (50) |LT|
 |6|Correo|||Y|VARCHAR (30) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | 
 |Sede\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Sede\_TipoSede\_FK|TipoSede|Y|Y||TipoSede|Codigo||
-|Sede\_Consultorio\_FK|Consultorio|Y|Y||Consultorio|Codigo||
-|Sede\_Ciudad\_FK|Ciudad|Y|Y||Ciudad|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Sede\_TipoSede\_FK|TipoSede|Y|Y|TipoSede|Codigo|
+|Sede\_Consultorio\_FK|Consultorio|Y|Y|Consultorio|Codigo|
+|Sede\_Ciudad\_FK|Ciudad|Y|Y|Ciudad|Codigo|
 Foreign Keys (referred from)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Veterinaria\_Sede\_FK|Veterinaria|Y|Y||Sede|Codigo||
-|Veterinario\_Sede\_FK|Veterinario|Y|Y||Sede|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Veterinaria\_Sede\_FK|Veterinaria|Y|Y|Sede|Codigo|
+|Veterinario\_Sede\_FK|Veterinario|Y|Y|Sede|Codigo|
 
 
 
 
 
-|Table Name|TipoDocumento|
-| :- | :- |
-|Functional Name||
-|Abbreviation||
-|Classification Type Name||
-|Object Type Name||
-|MV Prebuilt||
-|MV Query||
+**Table Name: TipoDocumento**
 
-
-|Number Of Columns|2|
-| :- | :- |
-|Number Of Rows Min.|0|
-|Number Of Rows Max.|9999999|
-|Expected Number Of Rows|0|
-|Expected Growth|0|
-|Growth Interval|Year|
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
@@ -615,36 +593,21 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |TipoDocumento\_PK|PKCodigo|ASC|
 Foreign Keys (referred from)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Dueno\_TipoDocumento\_FK|Dueno|Y|Y||TipoDocumento|Codigo||
-|Veterinario\_TipoDocumento\_FK|Veterinario|Y|Y||TipoDocumento|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Dueno\_TipoDocumento\_FK|Dueno|Y|Y|TipoDocumento|Codigo|
+|Veterinario\_TipoDocumento\_FK|Veterinario|Y|Y|TipoDocumento|Codigo|
 
 
 
 
 
-|Table Name|TipoNotificacion|
-| :- | :- |
-|Functional Name||
-|Abbreviation||
-|Classification Type Name||
-|Object Type Name||
-|MV Prebuilt||
-|MV Query||
+**Table Name: TipoNotificacion**
 
-
-|Number Of Columns|4|
-| :- | :- |
-|Number Of Rows Min.|0|
-|Number Of Rows Max.|9999999|
-|Expected Number Of Rows|0|
-|Expected Growth|0|
-|Growth Interval|Year|
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
@@ -656,35 +619,20 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | 
 |TipoNotificacion\_PK|PKCodigo|ASC|
 Foreign Keys (referred from)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Notificacion\_TipoNotificacion\_FK|Notificacion|Y|Y||TipoNotificacion|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Notificacion\_TipoNotificacion\_FK|Notificacion|Y|Y|TipoNotificacion|Codigo|
 
 
 
 
 
-|Table Name|TipoSede|
-| :- | :- |
-|Functional Name||
-|Abbreviation||
-|Classification Type Name||
-|Object Type Name||
-|MV Prebuilt||
-|MV Query||
+**Table Name: TipoSede**
 
-
-|Number Of Columns|2|
-| :- | :- |
-|Number Of Rows Min.|0|
-|Number Of Rows Max.|9999999|
-|Expected Number Of Rows|0|
-|Expected Growth|0|
-|Growth Interval|Year|
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
@@ -694,35 +642,20 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | 
 |TipoSede\_PK|PKCodigo|ASC|
 Foreign Keys (referred from)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Sede\_TipoSede\_FK|Sede|Y|Y||TipoSede|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+|Sede\_TipoSede\_FK|Sede|Y|Y|TipoSede|Codigo|
 
 
 
 
 
-|Table Name|Veterinaria|
-| :- | :- |
-|Functional Name||
-|Abbreviation||
-|Classification Type Name||
-|Object Type Name||
-|MV Prebuilt||
-|MV Query||
+**Table Name: Veterinaria**
 
-
-|Number Of Columns|5|
-| :- | :- |
-|Number Of Rows Min.|0|
-|Number Of Rows Max.|9999999|
-|Expected Number Of Rows|0|
-|Expected Growth|0|
-|Growth Interval|Year|
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
@@ -732,43 +665,29 @@ Columns
 |3|NIT|||Y|VARCHAR (15) |LT|
 |4|Nombre|||Y|VARCHAR (20) |LT|
 |5|Correo|||Y|VARCHAR (30) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Veterinaria\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Veterinaria\_Sede\_FK|Sede|Y|Y||Sede|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+|Veterinaria\_Sede\_FK|Sede|Y|Y|Sede|Codigo|
 Foreign Keys (referred from)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Dueno\_Veterinaria\_FK|Dueno|Y|Y||Veterinaria|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+|Dueno\_Veterinaria\_FK|Dueno|Y|Y|Veterinaria|Codigo|
 
 
 
 
 
-|Table Name|Veterinario|
-| :- | :- |
-|Functional Name||
-|Abbreviation||
-|Classification Type Name||
-|Object Type Name||
-|MV Prebuilt||
-|MV Query||
+**Table Name: Veterinario**
 
-
-|Number Of Columns|7|
-| :- | :- |
-|Number Of Rows Min.|0|
-|Number Of Rows Max.|9999999|
-|Expected Number Of Rows|0|
-|Expected Growth|0|
-|Growth Interval|Year|
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
@@ -780,20 +699,21 @@ Columns
 |5|Nombre|||Y|VARCHAR (20) |LT|
 |6|Apeliido|||Y|VARCHAR (20) |LT|
 |7|Correo|||Y|VARCHAR (30) |LT|
+
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Veterinario\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Veterinario\_Sede\_FK|Sede|Y|Y||Sede|Codigo||
-|Veterinario\_TipoDocumento\_FK|TipoDocumento|Y|Y||TipoDocumento|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Veterinario\_Sede\_FK|Sede|Y|Y|Sede|Codigo|
+|Veterinario\_TipoDocumento\_FK|TipoDocumento|Y|Y|TipoDocumento|Codigo|
 Foreign Keys (referred from)
 
 |**Name**|**Referred From**|**Mandatory**|**Transferable**|**In Arc**|**Columns**|**Referred Columns**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|AgendaPorVeterinario\_Veterinario\_FK|AgendaPorVeterinario|Y|Y||Veterinario|Codigo||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|AgendaPorVeterinario\_Veterinario\_FK|AgendaPorVeterinario|Y|Y|Veterinario|Codigo|
 
