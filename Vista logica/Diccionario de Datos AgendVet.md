@@ -309,7 +309,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |EstadoCita\_PK|PKCodigo|ASC|
 Foreign Keys (referred from)
 
