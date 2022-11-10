@@ -66,13 +66,13 @@ Foreign Keys (referred from)
 Columns
 
 |**No**|**Column Name**|**PK**|**FK**|**M**|**Data Type**|**DT <br>kind**|
-| :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |1|Codigo|P||Y|Integer|LT|
 |2|Nombre|||Y|VARCHAR (20) |LT|
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Animal\_PK|PKCodigo|ASC|
 Foreign Keys (referred from)
 
@@ -158,7 +158,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | 
+| :-: | :-: | :-: | :-: |
 |Consultorio\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -185,7 +185,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |Departamento\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -216,7 +216,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |DetalleFormula\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -244,7 +244,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 |DetalleHistoriaClinica\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
@@ -279,7 +279,7 @@ Columns
 Indexes
 
 |**Index Name**|**State**|**Column Name**|**Sort<br>Order**|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | 
 |Dueno\_PK|PKCodigo|ASC|
 Foreign Keys (referring to)
 
